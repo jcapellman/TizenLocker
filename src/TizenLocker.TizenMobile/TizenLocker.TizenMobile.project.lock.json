@@ -13274,16 +13274,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker\\TizenLocker.TizenMobile\\TizenLocker.TizenMobile.csproj",
+      "projectUniqueName": "C:\\jcgit\\TizenLocker\\src\\TizenLocker.TizenMobile\\TizenLocker.TizenMobile.csproj",
       "projectName": "TizenLocker.TizenMobile",
-      "projectPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker\\TizenLocker.TizenMobile\\TizenLocker.TizenMobile.csproj",
-      "projectJsonPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker\\TizenLocker.TizenMobile\\TizenLocker.TizenMobile.project.json",
+      "projectPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker.TizenMobile\\TizenLocker.TizenMobile.csproj",
+      "projectJsonPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker.TizenMobile\\TizenLocker.TizenMobile.project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker\\TizenLocker\\TizenLocker.csproj": {
-              "projectPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker\\TizenLocker\\TizenLocker.csproj"
+            "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.csproj": {
+              "projectPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.csproj"
             }
           }
         }
