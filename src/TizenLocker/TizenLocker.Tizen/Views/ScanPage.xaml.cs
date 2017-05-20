@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TizenLocker.Tizen.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : TabbedPage
+    public partial class ScanPage : ContentPage
     {
-        public MainPage()
+        public ScanPage()
         {
             InitializeComponent();
         }

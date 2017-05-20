@@ -1,38 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TizenLocker.Tizen.Views.MainPage"
-             BackgroundColor="White"
-             >
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        
-        <Label Grid.Row="0" Text="Tizen Locker" FontSize="16" TextColor="Black" />
-        
-        <ListView Grid.Row="1" ItemsSource="{Binding AppList}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-
-                        <Label Grid.Row="0" Text="{Binding AppName}" FontSize="12" TextColor="Black" />
-
-                        <ListView Grid.Row="1" ItemsSource="{Binding Privileges}">
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <Label Text="{Binding}" FontSize="10" TextColor="Black" />
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
-                    </Grid>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </Grid>
-</ContentPage>
+             xmlns:views="clr-namespace:TizenLocker.Tizen.Views;assembly=TizenLocker.Tizen"
+             Title="Tizen Locker">
+    <views:AppListingPage />
+    <views:ScanPage />
+</TabbedPage>
