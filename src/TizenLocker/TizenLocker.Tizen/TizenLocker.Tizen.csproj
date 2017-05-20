@@ -7,11 +7,11 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectTypeGuids>{2F98DAC9-6F16-457B-AED7-D43CAC379341};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{2699208B-D747-4462-A6E7-AB59D28FA6E7}</ProjectGuid>
+    <ProjectGuid>{F7AE7223-1FC6-405E-8C32-1446FB31B9E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TizenLocker.TizenMobile</RootNamespace>
-    <AssemblyName>TizenLocker.TizenMobile</AssemblyName>
+    <RootNamespace>TizenLocker.Tizen</RootNamespace>
+    <AssemblyName>TizenLocker.Tizen</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <DefaultLanguage>en-US</DefaultLanguage>
   </PropertyGroup>
@@ -34,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,23 +43,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="TizenLocker.TizenMobile.project.json" />
+    <None Include="TizenLocker.Tizen.project.json" />
     <None Include="tizen-manifest.xml" />
-    <None Include="shared\res\TizenLocker.TizenMobile.png" />
+    <None Include="shared\res\TizenLocker.Tizen.png" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TizenLocker.TizenMobile.cs" />
+    <Compile Include="Containers\AppListing\AppListingItem.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="TizenLocker.cs" />
+    <Compile Include="TizenLocker.Tizen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\MainPageVM.cs" />
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />
     <Folder Include="res\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TizenLocker\TizenLocker.csproj">
-      <Project>{7beba861-c323-45eb-86f3-c26b57da05c6}</Project>
-      <Name>TizenLocker</Name>
-    </ProjectReference>
+    <EmbeddedResource Include="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TizenLocker", "TizenLocker\TizenLocker.csproj", "{7BEBA861-C323-45EB-86F3-C26B57DA05C6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TizenLocker.TizenMobile", "TizenLocker.TizenMobile\TizenLocker.TizenMobile.csproj", "{2699208B-D747-4462-A6E7-AB59D28FA6E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TizenLocker.TizenTV", "TizenLocker.TizenTV\TizenLocker.TizenTV.csproj", "{A7C60161-6BFC-4AB1-8EAD-D9F8EDFB6ADB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TizenLocker.Tizen", "TizenLocker\TizenLocker.Tizen\TizenLocker.Tizen.csproj", "{F7AE7223-1FC6-405E-8C32-1446FB31B9E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7BEBA861-C323-45EB-86F3-C26B57DA05C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BEBA861-C323-45EB-86F3-C26B57DA05C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BEBA861-C323-45EB-86F3-C26B57DA05C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BEBA861-C323-45EB-86F3-C26B57DA05C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2699208B-D747-4462-A6E7-AB59D28FA6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2699208B-D747-4462-A6E7-AB59D28FA6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2699208B-D747-4462-A6E7-AB59D28FA6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2699208B-D747-4462-A6E7-AB59D28FA6E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7C60161-6BFC-4AB1-8EAD-D9F8EDFB6ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7C60161-6BFC-4AB1-8EAD-D9F8EDFB6ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7C60161-6BFC-4AB1-8EAD-D9F8EDFB6ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7C60161-6BFC-4AB1-8EAD-D9F8EDFB6ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AE7223-1FC6-405E-8C32-1446FB31B9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AE7223-1FC6-405E-8C32-1446FB31B9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AE7223-1FC6-405E-8C32-1446FB31B9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AE7223-1FC6-405E-8C32-1446FB31B9E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

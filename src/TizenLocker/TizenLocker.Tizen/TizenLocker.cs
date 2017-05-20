@@ -1,3 +1,5 @@
+using TizenLocker.Tizen.Views;
+
 using Xamarin.Forms;
 
 namespace TizenLocker

@@ -2,3 +2,4 @@ bin/
 obj/
 .vs/
 src/packages/
+src/TizenLocker.sln.DotSettings

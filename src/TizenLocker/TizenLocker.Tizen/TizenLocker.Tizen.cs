@@ -1,6 +1,6 @@
 using System;
 
-namespace TizenLocker.TizenMobile
+namespace TizenLocker.Tizen
 {
     class Program : global::Xamarin.Forms.Platform.Tizen.FormsApplication
     {
