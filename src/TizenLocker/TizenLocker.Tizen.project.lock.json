@@ -13250,10 +13250,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.Tizen\\TizenLocker.Tizen.csproj",
+      "projectUniqueName": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.Tizen.csproj",
       "projectName": "TizenLocker.Tizen",
-      "projectPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.Tizen\\TizenLocker.Tizen.csproj",
-      "projectJsonPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.Tizen\\TizenLocker.Tizen.project.json",
+      "projectPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.Tizen.csproj",
+      "projectJsonPath": "C:\\jcgit\\TizenLocker\\src\\TizenLocker\\TizenLocker.Tizen.project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

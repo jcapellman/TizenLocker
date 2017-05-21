@@ -1,5 +1,3 @@
-using System;
-
 namespace TizenLocker.Tizen
 {
     class Program : global::Xamarin.Forms.Platform.Tizen.FormsApplication

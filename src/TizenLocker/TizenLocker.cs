@@ -2,7 +2,7 @@ using TizenLocker.Tizen.Views;
 
 using Xamarin.Forms;
 
-namespace TizenLocker
+namespace TizenLocker.Tizen
 {
     public class App : Application
     {

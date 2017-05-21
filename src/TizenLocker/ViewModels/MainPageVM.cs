@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
 
 using Tizen.Applications;
+
 using TizenLocker.Tizen.Containers.AppListing;
 
 namespace TizenLocker.Tizen.ViewModels
